@@ -15,7 +15,7 @@
     <name>起源01-常用工具版本依赖管理[common-build]</name>
 
     <properties>
-        <code.path>germ/germ-common-build</code.path>
+        <code.path>vincent1857/germ-common-build</code.path>
     </properties>
 
     <modules>
