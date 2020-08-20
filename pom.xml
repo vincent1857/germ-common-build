@@ -1,0 +1,32 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>cn.vincent.germ.root</groupId>
+        <artifactId>germ-root-starter-parent</artifactId>
+        <version>1.0.0-SNAPSHOT</version>
+    </parent>
+
+    <groupId>cn.vincent.germ.common</groupId>
+    <artifactId>germ-common-build</artifactId>
+    <version>1.0.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+    <name>起源01-常用工具版本依赖管理[common-build]</name>
+
+    <properties>
+        <code.path>germ/germ-common-build</code.path>
+    </properties>
+
+    <modules>
+       <module>germ-common-dependencies</module>
+    </modules>
+
+    <!-- SCM配置 -->
+    <scm>
+        <url>${code.protocol}:${code.url}${code.path}${code.path.suffix}</url>
+        <connection>scm:${code.protocol}:${code.url}${code.path}${code.path.suffix}</connection>
+        <developerConnection>scm:${code.protocol}:${code.url}${code.path}${code.path.suffix}</developerConnection>
+        <tag>HEAD</tag>
+    </scm>
+</project>
